@@ -112,3 +112,127 @@ a {
     font-weight: bold;
 }
 
+.planet-facts {
+    margin:150px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.facts-left {
+    width: 50%;
+    background-image: url(images/intro2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 0 20px 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.facts-right {
+    width: 50%;
+}
+
+.right-content {
+    display: flex;
+    background-color: white;
+    list-style-type: none;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-content li {
+    margin: 0 20px;
+    font-weight: 900;
+    background-color: #e5ffe5;
+    padding: 10px 20px;
+    border-radius: 30px;
+
+}
+
+.gallery {
+    margin-left: 80px;
+}
+
+.gallery-title {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+
+.gallery-title-img img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.gallery-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gallery-item img {
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+    position: absolute;
+    z-index: 5;
+    border-radius: 25px;
+}
+
+.gallery-item {
+    width: 300px;
+    height: 500px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.gallery-item-text {
+    z-index: 10;
+    position: relative;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50px;
+    text-align: center;
+    width: fit-content;
+    opacity: 0.8;
+} 
+
+.about {
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.about-title {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 18px;
+
+}
+
+.about-title-img img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.about-content {
+    display: flex;
+}
+
+.about-content-item {
+    padding: 150px 0;
+    width: 33%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+}
