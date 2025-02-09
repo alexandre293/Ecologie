@@ -12,27 +12,27 @@
     <img src="images/bg.svg" class="bg" alt="Background image">
 
     <div class="menu">
-        <a href="#" class="logo">
+        <a href="#header" class="logo" id="homeBtn">
             <img src="images/planet.svg" alt="Planet">
             <h3>Планета!</h3>
         </a>
 
         <div class="nav">
-            <a href="#plants">
+            <a href="#plants" id="factsBtn">
                 <img src="images/plant.svg" alt="Plants">
             </a>
 
-            <a href="#news">
+            <a href="#news" id="newsBtn">
                 <img src="images/news.svg" alt="News">
             </a>
 
-            <a href="#recycle">
+            <a href="#recycle" id="formBtn">
                 <img src="images/recycle.svg" alt="Recycle">
             </a>
         </div>
     </div>
 
-    <div class="header">
+    <div class="header" id="header">
         <h1 class="title">Наша планета</h1>
         <div class="planet-facts">
             <div class="facts-left">
@@ -84,15 +84,45 @@
         </div>
     </div>
 
-    <div class="about">
-        <h2 class="about-title">Где узнать об экологии? <span class="about-title-img"><img src="images/news.svg" alt="Plant emoji"></span></h2>
+    <div class="about" id="plants">
+        <h2 class="about-title">Где узнать об экологии? <span class="about-title-img"><img src="images/news.svg"
+                    alt="Plant emoji"></span></h2>
         <div class="about-content">
             <p class="about-content-item ab-item1">Интернет</p>
             <p class="about-content-item ab-item2">Мероприятия</p>
             <p class="about-content-item ab-item3">Друзья</p>
         </div>
-
     </div>
+
+    <div class="info" id="news">
+        <h2 class="info-title">Экология в мире <span class="info-title-img"><img src="images/recycle.svg"
+                    alt="Recycle emoji"></span></h2>
+        <div class="boss-info">
+            <div class="info-left-img">
+                <img src="images/recycle.svg" alt="recycle">
+            </div>
+            <p class="info-right-text">Тюки прозрачного пластика, непрозрачного пластика, бумаги, картона, пищевых
+                коробок, алюминия и стали затем отправляются на предприятия для переработки. Стекло, которое вы кладете
+                в контейнеры, и отходы, которые вы отвозите в центр переработки, также перерабатываются.</p>
+        </div>
+    </div>
+
+    <div class="form" id="recycle">
+        <h2 class="form-title">Давай беречь планету вместе. Запишись к нам</h2>
+        <form class="form-body">
+            <input type="text" class="form-input" placeholder="Имя" required>
+            <input type="mail" class="form-input" placeholder="Почта" required>
+            <br>
+            <button type="submit" class="form-btn">
+                <div>
+                    Записаться
+                    <span class="about-title-img"><img src="images/fire.svg"></span>
+                </div>
+            </button>
+        </form>
+    </div>
+
+    <script src="script.js" defer></script>
 
 </body>
 
